@@ -74,6 +74,8 @@ dependencies {
     implementation("org.orbit-mvi:orbit-compose:6.1.0")
     implementation("com.google.dagger:hilt-android:2.49")
     kapt("com.google.dagger:hilt-compiler:2.49")
+    testImplementation("org.robolectric:robolectric:4.11.1")
+    implementation("io.mockk:mockk:1.13.8")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
